@@ -37,7 +37,7 @@
 }
 
 #body-background {
-    background-image: url('/images/inicio.jpg');
+    background-image: url('../images/inicio.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -299,7 +299,7 @@ footer ul{
 
 
 #body-background2 {
-    background-image: url('/images/preparacion.jpg');
+    background-image: url('../images/preparacion.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -407,7 +407,7 @@ flex-basis:300px
 
 
 #body-background5 {
-    background-image: url('/images/cubiertos.jpg');
+    background-image: url('../images/cubiertos.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
