@@ -1,12 +1,12 @@
 /* Fuentes  */
 @font-face {
     font-family: "raymoon";
-    src: url("/assets/fonts/Ramyoon.ttf");
+    src: url("../assets/fonts/Ramyoon.ttf");
 }
 
 @font-face {
     font-family: "Cream-cake";
-    src: url("/assets/fonts/cream-cake.otf");
+    src: url("../assets/fonts/cream-cake.otf");
 }
 
 
@@ -241,6 +241,8 @@
             font-size: 15px;
         }
     }
+
+
 }
    
 /* ----------------------------------------------------------------------------------- */
