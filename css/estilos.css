@@ -1,0 +1,432 @@
+/* Fuentes  */
+@font-face {
+    font-family: "raymoon";
+    src: url("/assets/fonts/Ramyoon.ttf");
+}
+
+@font-face {
+    font-family: "Cream-cake";
+    src: url("/assets/fonts/cream-cake.otf");
+}
+
+
+
+
+/* INICIO --------------------------------------------------------------------------------------------------------*/
+
+#logo {
+    font-family: "raymoon";
+    font-size: 50px;
+    color: blanchedalmond;
+    text-align: center;
+}
+
+.titulo {
+    font-family: "Cream-cake";
+    font-size: 168px;
+    color: #ba3d3d;
+}
+
+ *{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    box-sizing: border-box;
+}
+
+#body-background {
+    background-image: url('/images/inicio.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.contenedor {
+    background-color: rgba(244, 232, 215, 0.695);
+    height: 75vh;
+    margin: 15%;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 30px;
+    color: #2c0404;
+    
+}
+
+.contenedor:hover{
+   
+    transform: scale(1.1);
+}
+
+
+.head {
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 63px;
+    background: #a93232c0;
+    width: 100%;
+    z-index: 100;
+}
+
+
+.navbar {
+    display: flex;
+    margin-right: 10px;
+
+}
+
+
+.navbar a{
+    
+    padding: 18px 20px;
+    color: rgb(242, 236, 236);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar ul li{
+    display: inline-block;
+}
+
+.navbar a:hover {
+    background: rgba(189, 43, 43, 0.906);
+}
+
+/* media queries */
+@media(max-width:1440px){
+    .parrafo{
+        font-size: 1rem;
+    }
+
+
+}
+
+
+
+
+@media(max-width:1023px){
+    .titulo {
+        font-family: "Cream-cake";
+        font-size: 130px;
+        color: #ba3d3d;
+    }
+
+    .parrafo{
+        font-size: 18px;
+    } 
+    
+
+}
+
+    
+@media(max-width:768px){
+    .titulo {
+        font-family: "Cream-cake";
+        font-size: 100px;
+        color: #ba3d3d;
+    }
+
+    #logo {
+        font-family: "raymoon";
+        font-size: 40px;
+        color: blanchedalmond;
+        text-align: center;
+    }
+.parrafo{
+    font-size: 1rem;
+}
+
+}
+
+    
+    
+@media(max-width:530px){
+    .contenedor {
+        height: 75vh;
+        margin: 15%;
+        text-align: center;
+        font-size: 25px;
+        
+    }
+    
+    .titulo {
+        font-family: "Cream-cake";
+        font-size: 80px;
+        color: #ba3d3d;
+    }
+
+    #logo {
+        font-family: "raymoon";
+        font-size: 45px;
+        color: blanchedalmond;
+        text-align: center;
+    }
+
+ 
+}
+
+@media(max-width:425px){
+    .titulo {
+        font-family: "Cream-cake";
+        font-size: 60px;
+        color: #ba3d3d;
+    }
+    
+    .navbar a{
+        color: rgb(242, 236, 236);
+        text-transform: uppercase;
+        font-size: 10px;
+        
+    }
+
+   
+
+     
+    #logo {
+        font-family: "raymoon";
+        font-size: 30px;
+        color: blanchedalmond;
+        text-align: center;
+    }
+
+
+    main{
+
+        .historia{
+
+            font-size: 80px;
+        }
+        .parrafo{
+            font-size: 12px;
+        }
+    }
+
+
+}
+
+
+@media(max-width:320px){
+
+    header{
+        .titulo {
+            font-family: "Cream-cake";
+            font-size: 5px;
+            color: #ba3d3d;
+        }
+        .navbar a{
+    
+           
+            text-transform: uppercase;
+            font-size: 9px;
+            
+        }
+
+    }
+    footer{
+
+        .instagram a{
+            color:#fffcfc;
+            font-size: 15px;
+        
+        }
+
+        
+        #telefono{
+            color: #ffffff;
+            font-size: 15px;
+        }
+    }
+}
+   
+/* ----------------------------------------------------------------------------------- */
+
+
+.footer-index{
+    position: absolute;
+}
+
+footer h2{
+    background-color:rgb(189, 43, 43);
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    margin: 2px;
+}
+
+footer{
+    background-color: rgb(189, 43, 43);
+    padding: 40px;
+    bottom: 0;
+    width: 100%; 
+    
+    
+}
+footer ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+
+.instagram a{
+    color:#ffffff;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.instagram:hover{
+    transform: scale(1.1);
+    color: #ffffff;
+}
+
+#telefono{
+    color: #ffffff;
+    font-size: 20px;
+}
+
+
+
+/* --------------------------------------------------------------------------------------- */
+/* Nosotros */
+
+
+
+#body-background2 {
+    background-image: url('/images/preparacion.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+.historia {
+    font-family: "Cream-cake";
+    font-size: 168px;
+    color: #ba3d3d;
+    margin-bottom: 30px; 
+}
+
+.contenedor2{
+    background-color: rgba(244, 232, 215, 0.663);
+    height: 150vh;
+    padding: 15%;
+    border-radius: 2%;
+    border: 30px;
+    text-align: center;
+    align-items: center;
+    font-family: sans-serif;
+    font-size: 2rem;
+    color: #550505;
+
+}
+
+
+/* ----------------------------------------------------------------------------------------------------------- */
+
+/* PLATOS */
+
+#body-background3{
+    background-color: #ffdddd
+}
+
+
+
+
+/* ----------------------------------------- */
+
+/* Postres */
+#body-background4{
+     background-color: #ffdddd
+} 
+ 
+.main-postres{
+    display: grid;
+    grid-template-columns:repeat(3, 1fr) ;
+    grid-template-rows: repeat(3, 1fr) ;
+    grid-template-areas: 
+    ". . . "
+    "imag-1 imag-2 imag-3"
+    "imag-1 imag-2 imag-3";
+    grid-column-gap: 60px;
+    grid-row-gap: 30px;
+    align-items: center;
+    flex-flow: row nowrap;
+    color: rgb(255, 255, 255);
+    justify-content: space-between;
+
+}
+
+
+
+.imag-1{
+grid-area: imag-1;
+flex-basis:300px
+}
+
+.imag-1:hover{
+    transform: scale(1.1);
+   transition-delay: 1ms;
+}
+
+.imag-2{
+grid-area:imag-2;
+flex-basis:300px
+}
+
+.imag-2:hover{
+    transform: scale(1.1);
+    transition-delay: 1ms;
+}
+
+.imag-3{
+grid-area: imag-3;
+flex-basis:300px
+}
+
+.imag-3:hover{
+    transform: scale(1.1);
+    transition-delay: 1ms;
+}
+
+
+
+
+
+
+/* ------------------------------------------------------------------------------ */
+
+
+/* TU OPINION */
+
+
+#body-background5 {
+    background-image: url('/images/cubiertos.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+form{
+    text-align: center;
+    margin: 200px 50% 0 auto;
+    border:2px solid #ba3d3d;
+    width: 250px;
+    background-color: #b32222d6;
+    font-size: 20px;
+    border-radius: 15px;
+    }
+
+    
+
+
+
+
+
+
+
