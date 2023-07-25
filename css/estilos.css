@@ -360,6 +360,7 @@ footer ul{
     background-image: url('../images/preparacion.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+   
 
 }
 
@@ -369,11 +370,12 @@ footer ul{
     font-size: 168px;
     color: #ba3d3d;
     margin-bottom: 30px; 
+    
 }
 
 .contenedor2{
     background-color: rgba(244, 232, 215, 0.663);
-    height: 150vh;
+    height: 100;
     padding: 15%;
     border-radius: 2%;
     border: 30px;
@@ -461,7 +463,7 @@ flex-basis:300px
 /* ------------------------------------------------------------------------------ */
 
 
-/* TU OPINION */
+/* SUGERENCIAS */
 
 
 #body-background5 {
