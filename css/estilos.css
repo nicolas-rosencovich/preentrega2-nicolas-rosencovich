@@ -68,7 +68,7 @@
     align-items: center;
     justify-content: space-between;
     height: 63px;
-    background: #a93232c0;
+    background: #a93232ec;
     width: 100%;
     z-index: 100;
 }
@@ -76,8 +76,11 @@
 
 .navbar {
     display: flex;
-    background-color: #ba3d3d !important ;
+    background-color: #d34b4bd6 !important ;
 
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+   color: white
 }
 
 
