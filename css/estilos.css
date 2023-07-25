@@ -451,21 +451,96 @@ flex-basis:300px
 
 
 #body-background5 {
-    background-image: url('../images/cubiertos.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
+    font-family: Arial, sans-serif;
+    background-color: #bea6a6;
+    margin: 0;
+    padding: 0;
 }
 
-form{
+h1 {
     text-align: center;
-    margin: 200px 50% 0 auto;
-    border:2px solid #ba3d3d;
-    width: 250px;
-    background-color: #b32222d6;
-    font-size: 20px;
-    border-radius: 15px;
+    color: #FF0000;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffcacab2;
+    border: 1px solid #FF0000;
+    border-radius: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: #FF0000;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #FF0000;
+    border-radius: 5px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+input[type="submit"] {
+    background-color: #FF0000;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+}
+
+input[type="submit"]:hover {
+    background-color: #CC0000;
+}
+
+/* Estilos para pantallas pequeñas (hasta 600px) */
+@media screen and (max-width: 600px) {
+    form {
+        max-width: 90%;
+    }
+}
+
+/* Estilos para pantallas extra pequeñas (hasta 320px) */
+@media screen and (max-width: 425px) {
+    form {
+        max-width: 100%;
+        padding: 10px;
+    }
+    input[type="submit"] {
+        margin-top: 10px;
+    }
+}
+@media screen and (max-width: 370px) {
+    form {
+        max-width: 40%;
     }
 
+
+}
+
+/* Estilos para pantallas extra pequeñas (hasta 320px) */
+@media screen and (max-width: 425px) {
+    form {
+        max-width: 100%;
+        padding: 10px;
+    }
+    input[type="submit"] {
+        margin-top: 10px;
+    }
+}
     
 
 
