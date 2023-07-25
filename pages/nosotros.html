@@ -4,11 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="/assets/icon/favicon2.icon.jpg" type="image/x-icon">
+    <!--Link de Boostrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/estilos.css">
     <title>Ezcooking</title>
 </head>
 <body id="body-background2">
-    <header class="head"> 
+    <!-- <header class="head"> 
         <div class="logo">
             <a href="../index.html" id="logo"> Ezcooking</a>
         </div>
@@ -21,14 +23,47 @@
             </ul>
         </nav>
     </header>
+ -->
 
+ <header>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../index.html">
+            <img src="../images/pro.png" alt="" width="100px">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Nosotros</a>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Platos
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="../pages/platos.html">Salados</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="../pages/postres.html">Dulces</a></li>
+                    </ul>
+                  </li>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/sugerencias.html">Sugerencias</a>
+              </li>
+            </form>
+          </div>
+        </div>
+      </nav>
+</header>
 
    <main>
     <div class="contenedor2">
         <article>
             <h2 class="historia">Nuestra historia </h2>
         
-            <p class="parrafo">Había una vez una empresa de comida que comenzó como un modesto puesto callejero. Su fundador, un apasionado amante de la gastronomía, tenía un sueño: compartir su amor por la comida con el mundo. Con una receta especial en sus manos y una visión clara en su mente, decidió emprender este viaje. <a href="./nosotros.html#fin">Fin del texto</a>
+            <!-- <p class="parrafo">Había una vez una empresa de comida que comenzó como un modesto puesto callejero. Su fundador, un apasionado amante de la gastronomía, tenía un sueño: compartir su amor por la comida con el mundo. Con una receta especial en sus manos y una visión clara en su mente, decidió emprender este viaje. <a href="./nosotros.html#fin">Fin del texto</a>
                
                 Con mucho esfuerzo y dedicación, el fundador comenzó a vender sus deliciosos platos en las calles de la ciudad. El sabor único y la calidad de sus productos no pasaron desapercibidos. Pronto, los clientes empezaron a llegar en masa, y el puesto callejero se convirtió en un lugar muy popular.
                 
@@ -41,7 +76,7 @@
                 La historia de esta empresa de comida es una historia de perseverancia, creatividad y amor por la cocina. Han superado desafíos, han innovado en sus métodos y han mantenido siempre su compromiso con la calidad. Hoy en día, siguen creciendo y expandiéndose, llevando su deliciosa comida a nuevos horizontes.
            
                 Esta empresa de comida es un recordatorio de que los sueños pueden hacerse realidad cuando se combina la pasión con el trabajo arduo. Su éxito es una inspiración para todos aquellos que sueñan con emprender en el mundo culinario. Y, sobre todo, es un testimonio de que la comida puede unir a las personas y crear momentos inolvidables alrededor de una mesa. Gracias a esto decidio crear una pagina en la que recopilaba sus mejores recetas </p>
-                <h2 id="fin">Fin.</h2>
+                <h2 id="fin">Fin.</h2> -->
                 
         </article>
     </div>
@@ -61,6 +96,11 @@
             </ul>
         </div>
     </footer>
-</script>
+
+
+
+
+<!-- Script de Bootsrap -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </body>
 </html>
