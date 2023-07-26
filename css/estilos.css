@@ -85,6 +85,11 @@
    color: white
 }
 
+.navbar-collapse {
+    flex-basis: 100%;
+    flex-grow: 0;
+    align-items: center;
+}
 
 .navbar-toggler {
     padding: var(--bs-navbar-toggler-padding-y) var(--bs-navbar-toggler-padding-x);
@@ -93,7 +98,6 @@
     color: black;
     background-color: #ba3d3d;
     border:  rgba(0, 0, 0, 0);
-    /* border-radius: var(--bs-navbar-toggler-border-radius); */
     border-radius: 8px;
     transition: var(--bs-navbar-toggler-transition);
 }
@@ -320,7 +324,6 @@ footer h2{
 footer{
     background-color: rgb(189, 43, 43);
     padding: 40px;
-    bottom: 0;
     width: 100%; 
     
     
@@ -399,6 +402,7 @@ footer ul{
 
 
 
+
 /* ----------------------------------------- */
 
 /* Postres */
@@ -406,54 +410,6 @@ footer ul{
      background-color: #ffdddd
 } 
  
-.main-postres{
-    display: grid;
-    grid-template-columns:repeat(3, 1fr) ;
-    grid-template-rows: repeat(3, 1fr) ;
-    grid-template-areas: 
-    ". . . "
-    "imag-1 imag-2 imag-3"
-    "imag-1 imag-2 imag-3";
-    grid-column-gap: 60px;
-    grid-row-gap: 30px;
-    align-items: center;
-    flex-flow: row nowrap;
-    color: rgb(255, 255, 255);
-    justify-content: space-between;
-
-}
-
-
-
-.imag-1{
-grid-area: imag-1;
-flex-basis:300px
-}
-
-.imag-1:hover{
-    transform: scale(1.1);
-   transition-delay: 1ms;
-}
-
-.imag-2{
-grid-area:imag-2;
-flex-basis:300px
-}
-
-.imag-2:hover{
-    transform: scale(1.1);
-    transition-delay: 1ms;
-}
-
-.imag-3{
-grid-area: imag-3;
-flex-basis:300px
-}
-
-.imag-3:hover{
-    transform: scale(1.1);
-    transition-delay: 1ms;
-}
 
 
 
@@ -556,6 +512,18 @@ input[type="submit"]:hover {
     input[type="submit"] {
         margin-top: 10px;
     }
+}
+
+.footer-index-s{
+    footer{
+        background-color: rgb(189, 43, 43);
+        padding: 40px;
+        bottom: 0;
+        width: 100%; 
+        
+        
+    }
+
 }
     
 
