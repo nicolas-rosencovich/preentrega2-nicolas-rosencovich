@@ -1,85 +1,125 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="../assets/icon/favicon2.icon.jpg" type="image/x-icon">
-    <!--Link de Boostrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-    <link rel="stylesheet" href="../css/estilos.css">
-    <title>Ezcooking</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="../assets/icon/favicon2.icon.jpg" type="image/x-icon">
+  <!--Link de Boostrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <link rel="stylesheet" href="../css/estilos.css">
+  <title>Ezcooking</title>
 </head>
+
 <body id="body-background5">
-    <header>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="../index.html">
-                <img src="../images/pro.png" alt="Imagen de nuestro logo" width="70px" id="logo1"">
+  <header class="header1">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="../index.html">
+          <img src="../images/pro.png" alt="Imagen de nuestro logo" width="70px" id="logo1"">
               </a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="../pages/nosotros.html">Nosotros</a>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                          Platos
-                        </a>
-                        <ul class="dropdown-menu">
-                          <li><a class="dropdown-item" href="../pages/platos.html">Salados</a></li>
-                          <li><hr class="dropdown-divider"></li>
-                          <li><a class="dropdown-item" href="../pages/postres.html">Dulces</a></li>
-                        </ul>
-                      </li>
+              <button class=" navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../pages/nosotros.html">Nosotros</a>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Platos
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="../pages/platos.html">Salados</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
                   </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Sugerencias</a>
-                  </li>
-                </form>
-              </div>
-            </div>
-          </nav>
-    </header>
+                  <li><a class="dropdown-item" href="../pages/postres.html">Dulces</a></li>
+                </ul>
+              </li>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Sugerencias</a>
+              </li>
+              </form>
+          </div>
+      </div>
+    </nav>
+  </header>
 
-<main>
-  <h1>Sugerencias para nuevos platos</h1>
-  <form action="/procesar_formulario" method="post">
-      <label  for="nombre">Nombre:</label>
-      <input type="text" id="nombre" name="nombre" required>
-      <br>
-      <label for="email">Email:</label>
-      <input type="email" id="email" name="email" required>
-      <br>
-      <label for="mensaje">Mensaje:</label>
-      <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
-      <br>
-      <input type="submit" value="Enviar">
-  </form>
-</main>
-    
-        
-</main>
+  <main>
 
+    <form class="formulario">
+      <h2 class="formulario-titulo">Sugerencias</h2>
+      <p>Te gustaria tener tus platillos favoritos en Ezcooking</p>
+      <h3>Inciar sesion </h3>
+      <p class="formulario-parrafo"> ¿Aún no tienes una cuenta?</p>
+      <h3> <a class="formulario-link" href="#">Registrarse</a></h3>
 
-    <footer class="footer-index-s">
-        <h2 class="footer-icon">Contacto</h2>
-        <div class="footer-img">
-            <ul>
-                <li class="instagram">
-                    <a href="https://www.instagram.com/brutacocina " target="_blank">Nuestro Instagram</a>
-                </li>
-                <li>
-                        <p id="telefono">351-627-4930</p>
-                </li>
-            </ul>
+      <!--  <div class="formulario-container">
+        <div class="formulario-grupo">
+            <input class="formulario-input" id="user" type="text" placeholder="Nombre">
+            <label for="name" class="formulario-label">Nombre</label>
+            <span class="formulario-linea"></span>
+        </div> -->
+
+      <div class="formulario-container">
+        <div class="formulario-grupo">
+          <input class="formulario-input" id="email" type="email" placeholder="Correo">
+          <label for="email" class="formulario-label">Correo</label>
+          <span class="formulario-linea"></span>
         </div>
-    </footer>
+
+        <div class="formulario-grupo">
+          <input class="formulario-input" id="password" type="password" placeholder="Contraseña">
+          <label for="password" class="formulario-label">Contraseña</label>
+          <span class="formulario-linea"></span>
+        </div>
+
+        <div class="formulario-grupo">
+          <input class="formulario-input" id="user" type="text" placeholder="Su platillo">
+          <label for="name" class="formulario-label">Sugerencia</label>
+          <span class="formulario-linea"></span>
+        </div>
+
+        <div class="formulario-submit">
+
+          <input type="submit" value="enviar">
+
+
+        </div>
+
+
+      </div>
+    </form>
+
+  </main>
+
+
+  <footer class="footer-index-s">
+    <h2 class="footer-icon">Contacto</h2>
+    <div class="footer-img">
+      <ul>
+        <li class="instagram">
+          <a href="https://www.instagram.com/brutacocina " target="_blank">Nuestro Instagram</a>
+        </li>
+        <li>
+          <p id="telefono">351-627-4930</p>
+        </li>
+      </ul>
+    </div>
+  </footer>
 
 
 
-<!-- Script de Bootsrap -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+  <!-- Script de Bootsrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous">
+  </script>
 </body>
+
 </html>
