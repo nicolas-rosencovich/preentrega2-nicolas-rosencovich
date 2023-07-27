@@ -254,7 +254,7 @@
     }
 
 
-    main{
+    
 
         .historia{
 
@@ -263,7 +263,7 @@
         .parrafo{
             font-size: 12px;
         }
-    }
+    
 
 
 }
@@ -286,6 +286,8 @@
             
         }
 
+
+        
     }
     footer{
 
@@ -380,7 +382,6 @@ footer ul{
     background-color: rgba(244, 232, 215, 0.663);
     height: 100;
     padding: 15%;
-    border-radius: 2%;
     border: 30px;
     text-align: center;
     align-items: center;
@@ -390,6 +391,24 @@ footer ul{
 
 }
 
+@media(max-width:425px){
+    .historia {
+        
+        font-size: 60px;
+       
+        margin-bottom: 30px; 
+        
+    }  
+    .contenedor2{
+        background-color: rgba(244, 232, 215, 0.663);
+        height: 100;
+        padding: 15%;
+        border: 30px;
+        font-size: 1rem;
+       
+    
+    }
+}
 
 /* ----------------------------------------------------------------------------------------------------------- */
 
