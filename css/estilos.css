@@ -396,10 +396,19 @@ footer ul{
 /* PLATOS */
 
 #body-background3{
-    background-color: #ffdddd
+    background-color: #441717
 }
 
+.cartas{
+    width: 80%;
+    margin: 30px 20px 30px 40px;
+    height: 80%;
+  
 
+    
+    
+   
+}
 
 
 
@@ -407,7 +416,7 @@ footer ul{
 
 /* Postres */
 #body-background4{
-     background-color: #ffdddd
+     background-color: #c07676
 } 
  
 
