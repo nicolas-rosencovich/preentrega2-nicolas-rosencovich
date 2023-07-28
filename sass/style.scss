@@ -1,0 +1,25 @@
+@import"./variables" ;
+@import "header";
+@import "main";
+@import "footer";
+@import "./index/index";
+@import"./nosotros/nosotros";
+@import"./platos/platos";
+@import"./postres/postres";
+@import"./sugerencias/sugerencias";
+@import "./responsive/responsive";
+
+ /* fuentes */
+ @font-face {
+    font-family: "raymoon";
+    src: url("../assets/fonts/Ramyoon.ttf");
+}
+
+@font-face {
+    font-family: "Cream-cake";
+    src: url("../assets/fonts/cream-cake.otf");
+}
+
+
+
+

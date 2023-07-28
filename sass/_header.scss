@@ -1,0 +1,108 @@
+#logo {
+    font-family: "raymoon";
+    font-size: 50px;
+    color: blanchedalmond;
+    text-align: center;
+}
+
+.head {
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 63px;
+    background: #a93232ec;
+    width: 100%;
+    z-index: 100;
+}
+
+
+.navbar {
+    display: flex;
+    background-color: #d34b4bd6 !important ;
+
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+   color: white
+}
+
+.navbar-collapse {
+    flex-basis: 100%;
+    flex-grow: 0;
+    align-items: center;
+}
+
+.navbar-toggler {
+    padding: var(--bs-navbar-toggler-padding-y) var(--bs-navbar-toggler-padding-x);
+    font-size: var(--bs-navbar-toggler-font-size);
+    line-height: 1;
+    color: black;
+    background-color: $rojo-titulos;
+    border:  rgba(0, 0, 0, 0);
+    border-radius: 8px;
+    transition: var(--bs-navbar-toggler-transition);
+}
+
+
+
+.bg-body-tertiary {
+    --bs-bg-opacity: 1;
+
+}
+
+
+
+.dropdown-menu {
+    
+    --bs-dropdown-color: rgba(255, 255, 255, 0.784);
+    --bs-dropdown-bg: #f67c7c;
+    --bs-dropdown-border-color: rgb(49, 6, 29);
+    --bs-dropdown-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    --bs-dropdown-link-color: #000000;
+    --bs-dropdown-link-hover-color: var(--bs-body-color);
+    --bs-dropdown-link-hover-bg: #972323;
+    
+    text-align: left;
+    list-style: none;
+    background-color: var(--bs-dropdown-bg);
+    background-clip: padding-box;
+    border: var(--bs-dropdown-border-width) solid var(--bs-dropdown-border-color);
+    border-radius: var(--bs-dropdown-border-radius);
+}
+
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * .5);
+    padding-left: calc(var(--bs-gutter-x) * .5);
+    margin-left: 30px;
+}
+
+.navbar a{
+    
+    padding: 18px 20px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar ul li{
+    display: inline-block;
+}
+
+.navbar a:hover {
+    background: rgba(189, 43, 43, 0.906);
+}
+ 
+
+.cartas{
+    width: 80%;
+    margin: 30px 20px 30px 40px;
+    height: 80%;
+
+}
+
+
+

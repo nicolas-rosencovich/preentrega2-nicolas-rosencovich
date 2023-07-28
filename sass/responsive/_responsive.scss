@@ -1,0 +1,231 @@
+/* media queries */
+@media(max-width:1440px){
+    .parrafo{
+        font-size: 1rem;
+    }
+
+
+}
+
+
+
+
+@media(max-width:1023px){
+    .titulo {
+        font-family: "Cream-cake";
+        font-size: 130px;
+        color: #ba3d3d;
+    }
+
+    .parrafo{
+        font-size: 18px;
+    } 
+    
+
+}
+
+    
+@media(max-width:768px){
+    .titulo {
+        font-family: "Cream-cake";
+        font-size: 100px;
+        color: #ba3d3d;
+    }
+
+    #logo {
+        font-family: "raymoon";
+        font-size: 40px;
+        color: blanchedalmond;
+        text-align: center;
+    }
+.parrafo{
+    font-size: 1rem;
+}
+
+}
+
+    
+    
+@media(max-width:530px){
+    .contenedor {
+        height: 75vh;
+        margin: 15%;
+        text-align: center;
+        font-size: 25px;
+        
+    }
+    
+    .titulo {
+        font-family: "Cream-cake";
+        font-size: 80px;
+        color: #ba3d3d;
+    }
+
+    #logo {
+        font-family: "raymoon";
+        font-size: 45px;
+        color: blanchedalmond;
+        text-align: center;
+    }
+
+ 
+}
+
+@media(max-width:425px){
+    .titulo {
+        font-family: "Cream-cake";
+        font-size: 60px;
+        color: #ba3d3d;
+    }
+    
+    .navbar a{
+        color: rgb(255, 255, 255);
+        text-transform: uppercase;
+        font-size: 10px;
+        
+    }
+
+   
+
+     
+    #logo {
+        font-family: "raymoon";
+        font-size: 30px;
+        color: blanchedalmond;
+        text-align: center;
+    }
+
+
+    
+
+        .historia{
+
+            font-size: 80px;
+        }
+        .parrafo{
+            font-size: 12px;
+        }
+    
+
+
+}
+
+
+@media(max-width:320px){
+
+    header{
+        .titulo {
+            font-family: "Cream-cake";
+            font-size: 5px;
+            color: #ba3d3d;
+        }
+        .navbar a{
+    
+           
+            text-transform: uppercase;
+            font-size: 9px;
+            color: #ffffff;
+            
+        }
+
+
+        
+    }
+    footer{
+
+        .instagram a{
+            color:#fffcfc;
+            font-size: 15px;
+        
+        }
+
+        
+        #telefono{
+            color: #ffffff;
+            font-size: 15px;
+        }
+    }
+
+
+}
+
+@media(max-width:425px){
+    .historia {
+        
+        font-size: 60px;
+       
+        margin-bottom: 30px; 
+        
+    }  
+    .contenedor2{
+        background-color: rgba(244, 232, 215, 0.663);
+        height: 100;
+        padding: 15%;
+        border: 30px;
+        font-size: 1rem;
+       
+    
+    }
+}
+
+
+
+@media(max-width:1024px){
+    .formulario{
+        margin-left: 380px;
+    
+    }
+}
+
+@media(max-width:768px){
+    .formulario{
+        margin-left: 240px;
+    
+    }
+}
+
+
+
+
+
+
+
+
+@media(max-width:425px){
+   .formulario-titulo{
+    font-size: 1.5rem;
+   }
+
+
+   .formulario{
+    margin-left: 80px;
+
+
+}
+}
+
+@media(max-width:375px){
+.formulario-titulo{
+ font-size: 1rem;
+}
+
+
+.formulario{
+ margin-left: 35px;
+
+
+}
+}
+
+@media(max-width:320px){
+.formulario-titulo{
+ font-size: 1rem;
+}
+
+
+.formulario{
+ margin-left: 15px;
+
+
+}
+}
