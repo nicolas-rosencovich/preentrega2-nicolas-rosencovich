@@ -43,7 +43,9 @@
     transition: var(--bs-navbar-toggler-transition);
 }
 
-
+.navbar-nav .dropdown-menu {
+    position: absolute;
+}
 
 .bg-body-tertiary {
     --bs-bg-opacity: 1;

@@ -2,8 +2,8 @@
     background-color: rgb(248, 183, 183);
     min-height: 100vh;
     display: grid;
-    grid-template-columns: 0.5fr 2fr 0.5fr;
-    grid-template-rows: 0.5fr 3fr 0.5fr;
+  /* grid-template-columns: 0.5fr 2fr 0.5fr;  */
+    grid-template-rows: 0.5fr 3fr 0.5fr; 
     grid-template-areas: 
     "header1 header1 header1"
     " . form1 ."
@@ -13,7 +13,16 @@
 grid-area: header1;
 }
 
-.formulario{
+
+.sug{
+    grid-area: form1;
+}
+
+.footer-index-s{
+    grid-area: footer1;
+}
+
+/* .formulario{
     grid-area: form1;
     background-color: rgba(250, 215, 215, 0.608);
     margin:auto;
@@ -123,4 +132,4 @@ font-weight: 300;
 
     .footer-index-s{
         grid-area: footer1;
-    }
+    } */
