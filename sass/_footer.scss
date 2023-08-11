@@ -8,6 +8,8 @@ footer h2{
     
 }
 
+
+
 footer{
     background-color: rgb(189, 43, 43);
     padding: 40px;
@@ -17,7 +19,7 @@ footer{
 }
 footer ul{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     text-decoration: none;
 }
 
@@ -35,7 +37,7 @@ footer ul{
 
 #telefono{
     color: $white;
-    font-size: 20px;
+    font-size: 40px;
 }
 
 #telefono:hover{
